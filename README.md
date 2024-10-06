@@ -43,7 +43,7 @@ The rapid increase in electric vehicles (EV) available on the road has offered a
 
 > **Relation:** This can be paired with the other two sources quite well, as this would give a good visual representation. This goes for each of the previous sources as well, but the data sources will be paired with research involving information that can not be easily shown as data to make conclusions.
 
-**Link:** https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer
+**Link:** https://openchargemap.org/site/develop/api#/
 
 ## Self Assessment and Reflection
 

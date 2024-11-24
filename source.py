@@ -330,13 +330,68 @@ fig.update_layout(
 fig.show()
 
 
+# # Checkpoint 3 - Machine Learning
+# 
+# ### Machine Learning Plan
+# 
+# #### Type of Machine Learning Model
+# I plan to use supervised learning models for this project, specifically:
+# - regression models if the intended outcome is to predict something like sales or prices
+# - classification models if the intended outcome is to predict something like failure or success or assigning categories, such as BEV or PHEV
+# 
+# Possible candidates include:
+# - linear regression, decision trees, or random forest
+# - logistic regression, fandom forest, or gradient boosting machines
+# 
+# #### Anticipated Challenges
+# - Insufficient data, solved by adding more data
+# - Imbalanced data, solved by gathering varied data
+# - Data quality issues, perform EDA to prevent this
+# - Feature engineering, use something like scikit-learn to select features
+# 
+# 
+# ### Machine Learning Implementation Process
+# 
+# #### Ask
+# What specific predictions is this machine learning model intended to address?
+# What features of the datasets are most relevant, and how will they be used to train the model?
+# 
+# #### Prepare
+# Conduct EDA to explore relationships, detect outliers, and also identify the key variables in the dataset.
+# Visualize feature distributions, correlations, and the trends.
+# 
+# #### Process
+# Split the dataset into train, validation, and test sets.
+# Clean the data. Depending on the situation, imputation or removing a row altogether may be needed.
+# Scale and normalize the data using scikit-learn libraries, such as StandardScaler or MinMaxScaler.
+# Use encoding.
+# 
+# #### Analyze
+# Test multiple algorithms/models and compare results.
+# Cross-validate to evaluate the models' performance.
+# 
+# #### Evaluate
+# Compare the models based on metrics depending on the model:
+# - regression - MSE, R^2
+# - classification - accuracy, precision, f1 score
+# 
+# #### Share
+# Summarize findings in a dashboard, possibly made with PowerBI, otherwise using Matplotlib or Streamlit.
+# Communicate the key metrics and findings clearly.
+
 # ## Resources and References
 # *What resources and references have you used for this project?*
 # 📝 <!-- Answer Below -->
 
-# In[2]:
+# In[136]:
 
 
 # ⚠️ Make sure you run this cell at the end of your notebook before every submission!
 get_ipython().system('jupyter nbconvert --to python source.ipynb')
+
+
+# In[ ]:
+
+
+
 
